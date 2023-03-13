@@ -15,7 +15,7 @@ pub struct Batch< T: 'static> {
     pub batch_wait_dur: u64,
 }
 
-impl<T: 'static> Batch< T> {
+impl<T: 'static> Batch<T> {
     pub fn new() -> Self {
         Self {
             size: 0,
@@ -133,7 +133,6 @@ mod tests {
         for _ in 0..50 {
             batch.add_func(func);
         }
-
 
         assert_eq!(batch.length(), 50);
     }
