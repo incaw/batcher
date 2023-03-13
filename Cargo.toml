@@ -1,9 +1,9 @@
 [package]
 name = "batcher"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "A very basic batching library"
-github= "https://github.com/incaw/batcher"
+repository= "https://github.com/incaw/batcher"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
