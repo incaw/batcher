@@ -1,6 +1,6 @@
 [package]
 name = "batcher"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A very basic batching library"
 github= "https://github.com/incaw/batcher"
